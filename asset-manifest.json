@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/projeto-homem-aranha-react/static/css/main.c343b58b.css",
+    "main.js": "/projeto-homem-aranha-react/static/js/main.92851731.js",
+    "static/media/trailer.mp4": "/projeto-homem-aranha-react/static/media/trailer.d901be1fae07c946c465.mp4",
+    "static/media/fundo-fotos-desktop.jpg": "/projeto-homem-aranha-react/static/media/fundo-fotos-desktop.a1f8a8aecb4f545c3080.jpg",
+    "static/media/homem_aranha_-_comentario-bg2.png": "/projeto-homem-aranha-react/static/media/homem_aranha_-_comentario-bg2.bd3266265d9abe961389.png",
+    "static/media/foto-contatos.jpg": "/projeto-homem-aranha-react/static/media/foto-contatos.1d220fe220b8bdc29d92.jpg",
+    "static/media/fundo-fotos-cel.jpg": "/projeto-homem-aranha-react/static/media/fundo-fotos-cel.14566c54f5cfd773b872.jpg",
+    "static/media/logo.jpg": "/projeto-homem-aranha-react/static/media/logo.74051d4d161876c09df8.jpg",
+    "index.html": "/projeto-homem-aranha-react/index.html",
+    "main.c343b58b.css.map": "/projeto-homem-aranha-react/static/css/main.c343b58b.css.map",
+    "main.92851731.js.map": "/projeto-homem-aranha-react/static/js/main.92851731.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c343b58b.css",
+    "static/js/main.92851731.js"
+  ]
+}
