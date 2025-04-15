@@ -1,0 +1,169 @@
+* {margin: 0px; padding: 0px;}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main-content-contatos {
+    background-image: url(../../midia/foto-contatos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.content-aranha {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+}
+
+.text {
+    font-family: 'kdam thmor pro', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    background-color: black;
+    border: 2px red solid;
+    width: 90%;
+    height: 170px;
+    border-radius: 50% 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-aranha {
+    background-size: contain;
+    height: 380px;
+}
+
+.formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    height: 600px;
+}
+
+form {
+    padding: 10px;
+    background-color: black;
+    width: 70%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 8px;
+    border: 2px red solid;
+}
+
+label {
+    height: 30px;
+    font-size: 20px;
+    color: white;
+    display: flex;
+}
+
+input {
+    color: black;
+    height: 30px;
+    font-size: 18px;
+
+}
+
+textarea {
+    font-size: 20px;
+    color: black;
+    resize: none;
+}
+
+button {
+    margin-top: 10px;
+    width: 80%;
+    height: 40px;
+    color: white;
+    border-radius: 8px;
+    background-color: red;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:850px) {
+    .main-container {
+        height: 100%;
+    }
+   
+    .main-content-contatos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-aranha {
+        height: 350px;
+        width: 300px;
+    }
+
+    .text {
+        width: 350px;
+        height: 150px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width:450px) {
+    .main-content-contatos {
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        padding: 15px 0px;
+    }
+    
+    .main-container {
+        height: 100%;
+    }
+
+    .img-aranha {
+        height: 200px;
+        width: 150px;
+    }
+
+    .formulario {
+        width: 250px;
+        height: 90%;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    .text {
+        width: 250px;
+        height: 130px;
+        font-size: 18px;
+    }
+
+}

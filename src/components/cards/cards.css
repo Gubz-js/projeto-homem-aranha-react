@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+.container-cards {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.content-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 50px;
+    padding: 0px 10px;
+}
+
+.card {
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    font-family: 'kdam thmor pro', sans-serif;
+    background-position: 50% 50%;
+    background-size: cover;
+    transition: 1s;
+    font-size: 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
+
+.card:hover{
+    transform: scale(1.03);
+}
+
+.banner-1 {
+background-image: url(https://rollingstone.uol.com.br/media/uploads/miles-morales_homem-aranha_no_aranhaverso_reproducao_sony.jpg);
+}
+
+.banner-2 {
+background-image: url(https://p15-kimg.kwai.net/kimg/EKzM1y8qmQEKAnMzEg1waG90by1vdmVyc2VhGoMBdXBpYy8yMDIzLzAzLzEzLzE2L0JNakF5TXpBek1UTXhOalUwTURSZk1UVXdNREF4TkRRM05qUTFOell6WHpFMU1ERXdNak00T0RReU1qa3dORjh5WHpNPV9vdXVfQjgxY2NmYjM1MjgzOWRkMTViMGJmMDJkYmZmYjA2YjFhLndlYnA.webp);
+}
+
+.banner-3 {
+background-image: url(https://observatoriodocinema.uol.com.br/wp-content/uploads/2018/10/spider-verse-peter-parker-header.jpg);
+}
+
+@media (max-width:750px) {
+    .container-cards {
+        height: 100%;
+    }
+
+    .content-cards {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        row-gap: 25px;
+        padding: 25px 0px;
+    }
+
+    .card {
+        width: 320px;
+        height: 400px;
+    }
+}
+
+@media (max-width:400px) {
+    .container-cards {
+        height: 100%;
+    }
+
+    .content-cards {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        row-gap: 25px;
+        padding: 25px 0px;
+    }
+
+    .card {
+        width: 280px;
+        height: 400px;
+    }
+}

@@ -1,0 +1,109 @@
+
+.main-container-fotos {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content-fotos {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    place-items: center;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../midia/fundo-fotos-cel.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.foto {
+    width: 220px;
+    height: 220px;
+    color: white;
+    border: red 3px solid;
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transition: 1s;
+   }
+
+   .foto:hover {
+    transform: scale(1.3);
+   }
+
+   .a {
+    background-image: url(https://t2.tudocdn.net/689937?w=1200&h=1200);
+   }
+
+   .b {
+    background-image: url(https://img.odcdn.com.br/wp-content/uploads/2023/06/homem-aranha-atraves-do-aranhaverso.jpg);
+   }
+
+   .c {
+    background-image: url(https://f.i.uol.com.br/fotografia/2023/06/01/16856508876478fdc7d7a0b_1685650887_3x2_md.jpg);
+   }
+
+   .d {
+    background-image: url(https://tm.ibxk.com.br/2023/06/23/23121129890084.jpg);
+   }
+
+   .e {
+    background-image: url(https://www.elhombre.com.br/wp-content/uploads/2023/06/l-intro-1683906864-768x430.jpg);
+   }
+
+   .f {
+    background-image: url(https://tm.ibxk.com.br/2023/08/10/10120745362134.jpg?ims=1200x675);
+    }
+
+    @media (max-width:1600px) {
+        .main-container-fotos {
+            height: 700px;
+        }
+
+        .main-content-fotos {
+            background-image: url(../../midia/fundo-fotos-desktop.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+        }
+
+    }
+
+    @media (max-width:850px) {
+        .main-container-fotos {
+            height: 900px;
+        }
+        .main-content-fotos {
+            display: grid;
+            grid-template-columns: repeat(2, 3fr);
+            place-items: center;
+            background-image: url(../../midia/fundo-fotos-cel.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+        }
+    }
+
+    @media (max-width:450px) {
+        .main-container-fotos {
+            height: 100%;
+        }
+
+        .main-content-fotos {
+            display: flex;
+            flex-direction: column;
+            row-gap: 25px;
+            padding: 20px 0px;
+            background-image: url(../../midia/fundo-fotos-cel.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+        }
+
+        .foto:hover {
+            transform: scale(1.2);
+        }
+    }

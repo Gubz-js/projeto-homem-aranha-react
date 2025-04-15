@@ -1,0 +1,109 @@
+.main-container-comentarios {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   height: 600px;
+   background-color: rgba(218, 14, 14, 0.8);
+}
+
+.main-content-comentarios {
+  width: 100%;
+  height: 580px;
+  display: grid;
+  grid-template-columns: repeat(1, 3fr);
+  place-content: center;
+  row-gap: 20px;
+  background-image: url(https://i.pinimg.com/originals/b5/12/ef/b512efa6c4e33c91e37e947099072757.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.comentarios {
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    height: 150px;
+ }
+
+ .imagem {
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border: 2px red solid;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px ;
+ }
+
+ .comentario {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 500px;
+    height: 150px;
+    background-color: rgba(0 , 0, 0, 0.9);
+    border: 2px red solid;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px ;
+ }
+
+ .g {
+    background-image: url(https://musicaecinema.com/wp-content/uploads/2023/05/spider-punk-homem-aranha-atraves-do-aranhaverso-1024x512.png.webp);
+ }
+
+ .h {
+    background-image: url(https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2023/05/20/906135309-homem-aranha-india.jpg);
+ }
+
+ .i {
+    background-image: url(https://i.ibb.co/yPkVbtk/3miguelohara.jpg);
+ }
+
+ @media (max-width:1600px) {
+   .main-container-comentarios {
+      height: 900px;
+   }
+   .main-content-comentarios {
+      height: 880px;
+   }
+}
+
+@media (max-width:850px) {
+   .main-container-comentarios {
+      height: 900px;
+   }
+   .main-content-comentarios {
+      height: 880px;
+   }
+}
+
+@media (max-width:450px) {
+   .main-container-comentarios {
+      height: 100%;
+   }
+
+   .main-content-comentarios {
+      height: 100%;
+   }
+
+  .comentarios {
+   height: 380px;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+  }
+
+  .comentario {
+   width: 280px;
+   padding: 0 5px;
+  }
+
+  .imagem {
+   width: 180px;
+   height: 180px;
+  }
+}
