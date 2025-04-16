@@ -5,6 +5,8 @@ import Video from '../../midia/trailer.mp4'
 import Cards from "../../components/cards/cards";
 import Footer from "../../components/footer/footer";
 
+
+
 function Home() {
 
     return(

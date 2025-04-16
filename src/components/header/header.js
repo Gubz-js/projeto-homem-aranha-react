@@ -12,18 +12,10 @@ function Header() {
             
             <nav>
                 <ul>
-                    <Link to={'/'}>
-                        <li>Home</li>
-                    </Link>
-                    <Link to={'/contatos'}>
-                        <li>Contatos</li>
-                    </Link>
-                    <Link to={'/fotos'}>
-                        <li>Fotos</li>                    
-                    </Link>
-                    <Link to={'/comentarios'}>
-                        <li>Comentarios</li>
-                    </Link>
+                    <Link to={'/projeto-homem-aranha-react/'}> <li>Home</li> </Link>
+                    <Link to={'/contatos'}> <li>Contatos</li>  </Link>                                           
+                    <Link to={'/fotos'}> <li>Fotos</li> </Link>                                                              
+                    <Link to={'/comentarios'}>  <li>Comentarios</li>  </Link>  
                 </ul>
             </nav>
         </header>

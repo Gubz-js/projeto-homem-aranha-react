@@ -1,6 +1,6 @@
 import React from "react";
 import Header from '../../components/header/header'
-import HomemAranha from '../../midia/homem_aranha_-_comentario-bg2.png'
+import HomemAranha from '../../midia/homem_aranha_ctt.png'
 import '../../pages/contatos/contatos.css'
 import Footer from '../../components/footer/footer'
 

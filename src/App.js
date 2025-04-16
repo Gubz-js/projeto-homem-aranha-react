@@ -9,7 +9,7 @@ function App() {
   return (
    <BrowserRouter>
     <Routes>
-      <Route path="/" element= {<Home />}></Route>
+      <Route path="/projeto-homem-aranha-react/" element= {<Home />}></Route>
       <Route path="/comentarios" element= {<Comentarios />}></Route>
       <Route path="/contatos" element= {<Contatos />}></Route>
       <Route path="/fotos" element= {<Fotos />}></Route>

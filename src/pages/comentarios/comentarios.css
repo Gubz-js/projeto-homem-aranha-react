@@ -24,14 +24,14 @@
     display: flex;
     align-items: center;
     justify-content: center ;
-    height: 150px;
+    height: 180px;
  }
 
  .imagem {
     background-position: 50% 50%;
     background-size: cover;
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     border: 2px red solid;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px ;
@@ -43,8 +43,8 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 500px;
-    height: 150px;
+    width: 550px;
+    height: 180px;
     background-color: rgba(0 , 0, 0, 0.9);
     border: 2px red solid;
     border-top-right-radius: 8px;
@@ -94,16 +94,17 @@
    height: 380px;
    width: 100%;
    display: flex;
-   flex-direction: column;
+   flex-direction: column; 
   }
 
   .comentario {
    width: 280px;
-   padding: 0 5px;
+   border-radius: 0;
   }
 
   .imagem {
-   width: 180px;
+   width: 280px;
    height: 180px;
+   border-radius: 0;
   }
 }
